@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "dashmod",
+  "version": "${version}",
+  "name": "Dash Mod",
+  "description": "Adds a server-authoritative player dash ability.",
+  "authors": [
+    "Codex"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.dashmod.DashMod"
+    ],
+    "client": [
+      "com.example.dashmod.client.DashModClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
